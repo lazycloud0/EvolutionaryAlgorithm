@@ -9,6 +9,7 @@ let STOP_EVOLUTION = false;
 const MIN_CHAR_CODE = 32;
 const MAX_CHAR_CODE = 122;
 
+
 function newCharacter() {
   let character = Math.floor(
     Math.random() * (MAX_CHAR_CODE - MIN_CHAR_CODE + 1) + MIN_CHAR_CODE
